@@ -1,0 +1,26 @@
+Implementation
+Load the data set from kaggle (fer2013).
+Dataset contains noisy data. We have to clean the dataset before training on it.
+Run csv_to_numpy.py . This will convert the dataset(csv format) into numpy format.
+We are creating 4 numpy files:
+1. training data
+2. training labels
+3. test data
+4. test labels
+
+We are classifying 7 emotional states.
+emotions: 'angry', 'disgusted', 'fearful', 'happy', 'sad', 'surprised', 'neutral'.
+
+emotion_recognition.py is our main program.
+constants.py stores all the path to files.
+dataset_loader loads dataset into environment.
+csv_to_numpy.py convert csv dataset into numpy files for input for training.
+
+After loading dataset train our Neural network model. Run emotion_recognition.py train
+This will train the model and generate a weights file. This weights file will be used when we use emotion_recognition.py run.
+We are taking images to classify from webcam. Using opencv we can detect face from the images.
+This is done using haar cascade classifier. The output will be cropped face from the webcam feed.
+This is used for classification. This image is taken as input our CNN model.
+
+Our CNN model has three main layers.
+Input layer followed 2 convolutional blocks followed by max pooling layer. This is repeated for 2 more times followed by flattening and using softmax activation layer at the end with 7 output classes.

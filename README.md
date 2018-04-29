@@ -10,6 +10,10 @@ Fer 2013 data set used for training.
 - [Keras](https://github.com/ignaciorlando/skinner/wiki/Keras-and-TensorFlow-installation)
 - [OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/)
 
+## Accuracy
+
+![Accuracy Plot](https://github.com/sharath29/SC-Sentiment-Analysis/results.png)
+
 
 ## Dataset
 
@@ -28,3 +32,5 @@ python emotion_recognition.py run
 ```
 python emotion_recognition.py train
 ```
+
+4.Plots are stored in ipython notebook. Open in jupyter notebook.
