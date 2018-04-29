@@ -12,7 +12,7 @@ Fer 2013 data set used for training.
 
 ## Accuracy
 
-![Accuracy Plot](https://github.com/sharath29/SC-Sentiment-Analysis/results.png)
+![Accuracy Plot](https://raw.githubusercontent.com/sharath29/SC-Sentiment-Analysis/master/results.png)
 
 
 ## Dataset
