@@ -18,7 +18,7 @@ Fer 2013 data set used for training.
 
 ### Accuracy values represented above:
 **Accuracy: Correct Predictions / Total Input Data.
-Precision: True Positives / (True Positives + False Positives).
+Precision: True Positives / (True Positives + False Positives).  
 Recall: True Positives / (True Positives + False Negatives).**
 
 ## Dataset
