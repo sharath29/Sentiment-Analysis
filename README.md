@@ -13,7 +13,7 @@ Fer 2013 data set used for training.
 ## Accuracy
 
 ![Accuracy Plot](https://raw.githubusercontent.com/sharath29/SC-Sentiment-Analysis/master/results.png)
-![Accuracy values](https://raw.githubusercontent.com/sharath29/SC-Sentiment-Analysis/master/accuracy_values.png)
+![Accuracy values](https://raw.githubusercontent.com/sharath29/SC-Sentiment-Analysis/master/results_values.png)
 
 Accuracy values represented above:
 Accuracy: ratio of total correct prediction by total data used for prediction. i.e. correct predictions / total input data/
