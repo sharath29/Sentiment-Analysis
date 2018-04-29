@@ -15,10 +15,12 @@ Fer 2013 data set used for training.
 ![Accuracy Plot](https://raw.githubusercontent.com/sharath29/SC-Sentiment-Analysis/master/results.png)
 ![Accuracy values](https://raw.githubusercontent.com/sharath29/SC-Sentiment-Analysis/master/results_values.png)
 
+
 ### Accuracy values represented above:
 **Accuracy: Correct Predictions / Total Input Data.
 Precision: True Positives / (True Positives + False Positives).
 Recall: True Positives / (True Positives + False Negatives).**
+
 ## Dataset
 
 - [Kraggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data).
